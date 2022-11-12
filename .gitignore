@@ -25,3 +25,7 @@ yarn-error.log*
 /1-Beginner
 /2-Intermediate
 /3-Advanced
+
+/postcss.config.js
+/tailwind.config.js
+/.eslintrc.json
