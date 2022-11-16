@@ -19,7 +19,7 @@ const Bin2Dec = () => {
     return (
         <Page>
             <div className='shadow-lg'>
-                <input className="bg-gray-50 border border-gray-300 text-gray-900 text-sm p-1 m-1"
+                <input className="bg-gray-50 border border-gray-300 text-gray-900 text-sm p-1 m-1 shadow-md"
                     type='text'
                     onChange={e => {
                         if (isNaN(+e.target.value)) {
@@ -35,7 +35,7 @@ const Bin2Dec = () => {
                     }}
                 ></input>
                 <button
-                    className="bg-gray-100 p-1 m-1"
+                    className="bg-gray-100 p-1 m-1 shadow-md"
                     onClick={() => setDecimal(bin2Dec(bin))}
                 >Convert</button>
                 <div className="p-1 m-1">
