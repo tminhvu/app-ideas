@@ -5,7 +5,7 @@ const Button = (props) => {
     const text = props.text
     return (
         <button
-            className="bg-cyan-50 border-2 border-cyan-100 rounded p-1 hover:border-black"
+            className="bg-green-50 border-2 border-green-100 rounded p-1 hover:border-black"
             onClick={() => {
                 props.onClick(old => old + text);
             }}

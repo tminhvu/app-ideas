@@ -7,6 +7,9 @@ import BorderRadiusPreview from "./beginner/BorderRadiusPreview";
 import DollaToCents from "./beginner/DollarsToCents";
 import CauseEffectApp from "./beginner/CauseEffectApp";
 
+import Intermediate from "./intermediate/Intermediate";
+import Advanced from "./advanced/Advanced";
+
 function App() {
     return (
         <div className="md:p-20 sm:p-4 bg-gray-500">
@@ -29,8 +32,10 @@ function App() {
                     <Route path='/beginner/calculator' element={<Calculator />} />
                     <Route path='/beginner/dollarstocents' element={<DollaToCents />} />
                     <Route path='/beginner/causeeffectapp' element={<CauseEffectApp />} />
-                    <Route path='/intermediate/*' element={<Beginner />} />
-                    <Route path='/advanced/*' element={<Beginner />} />
+
+                    <Route path='/intermediate' element={<Intermediate />} />
+                    <Route path='/advanced' element={<Advanced />} />
+
                 </Routes>
             </BrowserRouter>
         </div>
