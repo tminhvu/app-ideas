@@ -45,7 +45,7 @@ const generateLinks = (setPerson, people, activePerson) => {
             <div key={Math.random()}>
                 <a
                     className={
-                    ( (activePerson.name === value.name) ? "font-bold text-green-900 underline " : '')
+                        ((activePerson.name === value.name) ? "font-bold text-green-900 underline " : '')
                         + "hover:bg-green-100 p-1 pl-2 pr-2"
                     }
                     onClick={() => {
