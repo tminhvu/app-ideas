@@ -2,9 +2,9 @@ import PropTypes from 'prop-types'
 
 const Page = (props) => {
     return (
-     <div className="grid place-content-center p-20 mt-14 bg-white">
+        <div style={props.style} className="grid place-content-center p-20 mt-14 bg-white">
             {props.children}
-     </div>
+        </div>
     )
 }
 

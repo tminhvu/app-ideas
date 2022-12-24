@@ -10,6 +10,7 @@ import CauseEffectApp from "./beginner/CauseEffectApp";
 import Intermediate from "./intermediate/Intermediate";
 import Advanced from "./advanced/Advanced";
 import ChristmasLightsApp from "./beginner/ChristmasLightsApp";
+import ColorCycle from "./beginner/ColorCycle";
 
 function App() {
     return (
@@ -34,6 +35,7 @@ function App() {
                     <Route path='/beginner/dollarstocents' element={<DollaToCents />} />
                     <Route path='/beginner/causeeffectapp' element={<CauseEffectApp />} />
                     <Route path='/beginner/christmaslightsapp' element={<ChristmasLightsApp />} />
+                    <Route path='/beginner/colorcycle' element={<ColorCycle />} />
 
                     <Route path='/intermediate' element={<Intermediate />} />
                     <Route path='/advanced' element={<Advanced />} />

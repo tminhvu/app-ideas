@@ -10,6 +10,7 @@ const Beginner = () => {
             <Block><Link to='dollarstocents'>DollarsToCents</Link></Block>
             <Block><Link to='causeeffectapp'>CauseEffectApp</Link></Block>
             <Block><Link to='christmaslightsapp'>ChristmasLightsApp</Link></Block>
+            <Block><Link to='colorcycle'>ColorCycle</Link></Block>
         </div>
     )
 }
